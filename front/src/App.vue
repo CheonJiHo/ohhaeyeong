@@ -52,7 +52,6 @@
 <script>
 export default {
   name: 'App',
- 
   computed: {
     isLogin() {
       return this.$store.getters.isLogin // 로그인 여부
@@ -76,12 +75,14 @@ export default {
   text-align: center;
   color: #2c3e50;
   background-color: black;
+  
   ;
 }
 
 nav {
   padding: 30px;
   background-color: #2c3e50;
+  
 }
 
 nav a {
